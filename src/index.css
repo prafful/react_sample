@@ -1,0 +1,16 @@
+.myAlpha{
+    color:green;
+    background-color: pink;
+    float: left;
+    display: block;
+    padding:5;
+    margin:5;
+}
+
+.one{
+    background-color: greenyellow;
+}
+
+.two{
+    color:deepskyblue;
+}
