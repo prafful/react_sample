@@ -1,0 +1,21 @@
+.active{
+    color:red
+}
+
+.menuheader{
+    background-color:pink;
+    padding: 0px;
+}
+
+ul.menuheader li{
+    display: inline;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    background-color: burlywood;
+}
+
+.content{
+    background-color: antiquewhite;
+    padding: 10px;
+}

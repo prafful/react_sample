@@ -7,9 +7,18 @@ import BehindTheScene from './components/behindthescene';
 import ComponentLifeCycle from './components/ComponentLifeCycle';
 import LocalJson from './components/LocalJson';
 import RemoteData from './components/RemoteData';
+import Website from './components/spa-website/Website';
 
 const position = document.getElementById("myapp");
 const ls = document.getElementById("lifecycle")
+const spa = document.getElementById("spa")
+
+ReactDOM.render(
+                    <div>
+                        <Website />
+                    <hr></hr>
+                    </div>, 
+                    spa)
 
 ReactDOM.render(<ComponentLifeCycle />, ls);
 
